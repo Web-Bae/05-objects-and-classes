@@ -167,13 +167,6 @@ function makeToddlerClassAndSpeak() {
   return tina.speak();
 }
 
-// makeToddlerClassAndWalk should create a toddler named Tina with age 2
-// the function should return the value of calling the walk method on Tina
-function makeToddlerClassAndWalk() {
-  let tina = new ToddlerClass("Tina", 2);
-  return tina.walk();
-}
-
 // makeToddlerClassAndGrowUp should create a toddler named Tina with age 2
 // the function should call the growUp method on Tina
 // the function should return the age of Tina
